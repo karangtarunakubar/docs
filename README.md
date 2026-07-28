@@ -51,11 +51,11 @@ Use this project if you want:
 
 ---
 
-## Demo
+## Stream
 
-Live demo: [Add demo URL here]
+Live demo: [Add stream URL here]
 
-![demo gif placeholder](docs/demo.gif)
+![karangtaruna gif placeholder](docs/karangtaruna.gif)
 
 ---
 
@@ -72,8 +72,8 @@ Clone and run locally
 
 ```bash
 # clone
-git clone https://github.com/your-username/karang-tarun.git
-cd karang-tarun
+git clone https://github.com/karangtaruna/doc.git
+cd docs
 
 # install
 npm install
