@@ -72,7 +72,7 @@ Clone and run locally
 
 ```bash
 # clone
-git clone https://github.com/karangtaruna/doc.git
+git clone https://github.com/karangtaruna/docs.git
 cd docs
 
 # install
