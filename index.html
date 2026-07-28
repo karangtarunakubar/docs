@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title="docs">Karang Taruna Documents</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app" aria-labelledby="app-title">
+    <header class="app-header">
+      <h1 id="app-title">To‑Do List</h1>
+      <p class="tagline">Simple, fast, and persistent — powered by localStorage</p>
+    </header>
+
+    <section class="todo-input">
+      <label for="new-todo" class="visually-hidden">Add new to-do</label>
+      <input id="new-todo" type="text" placeholder="What needs to be done?" />
+      <button id="add-btn" aria-label="Add task">Add</button>
+    </section>
+
+    <section class="controls" aria-label="Task controls">
+      <div class="filters" role="tablist" aria-label="Filter tasks">
+        <button class="filter-btn active" data-filter="all" role="tab">All</button>
+        <button class="filter-btn" data-filter="active" role="tab">Active</button>
+        <button class="filter-btn" data-filter="completed" role="tab">Completed</button>
+      </div>
+      <div class="actions">
+        <button id="clear-completed">Clear completed</button>
+      </div>
+    </section>
+
+    <section class="todo-list-section">
+      <ul id="todo-list" class="todo-list" aria-live="polite"></ul>
+    </section>
+
+    <footer class="footer">
+      <span id="remaining-count">0</span> item(s) left
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
