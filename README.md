@@ -1,9 +1,9 @@
 # Karang Taruna Kutai Barat
 # Docs
 
-[![Build Status](https://img.shields.io/badge/build--status-license-docs)](https://github.com/karangtaruna/docs)
+[![Build Status](https://img.shields.io/badge/build--status-license-docs)](https://github.com/karangtarunakubar/docs)
 [![License](https://img.shields.io/badge/license-LICENSED)](#license)
-[![Issues](https://img.shields.io/badge/issues-welcome-blue)](https://github.com/karangtaruna/docs/license)
+[![Issues](https://img.shields.io/badge/issues-welcome-blue)](https://github.com/karangtarunakubar/doc/license)
 
 A short, compelling tagline for Karang Tarun — what the project does and why it exists in one line.
 
@@ -72,7 +72,7 @@ Clone and run locally
 
 ```bash
 # clone
-git clone https://github.com/karangtaruna/docs.git
+git clone https://github.com/karangtarunakubar/docs.git
 cd docs
 
 # install
